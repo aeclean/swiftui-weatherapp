@@ -14,7 +14,7 @@ enum WeatherViewState {
     case failure
 }
 
-class WatherViewModel: ObservableObject {
+class WeatherViewModel: ObservableObject {
     @Published var city: String = ""
     @Published var temperature: String = ""
     @Published var condition: String = ""
